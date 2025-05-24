@@ -13,15 +13,22 @@ This project simulates ransomware behavior in a safe and controlled environment.
 - Safe to use on dummy files in a controlled folder  
 - Easy to start and stop with keyboard interrupt  
 
-## Setup
+## Setup Instructions
 
-1. Make sure you have Python 3 installed.  
-2. Clone or download this repository.  
-3. Create a folder named `sample_files` in the project directory.  
-4. Add some dummy text files (e.g., `test1.txt`, `document2.txt`) to the `sample_files` folder.  
+1. **Install Python 3**  
+   Make sure Python 3 is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-## Usage
+2. **Download the Project Files**  
+   Clone this repository or download the project ZIP and extract it.
 
-Run the simulation with:
+3. **Create the Target Folder**  
+   Inside the project directory, create a folder named `sample_files` where the simulation will operate.
 
-python3 ransomware_simulator.py
+4. **Add Sample Files**  
+   Place some dummy text files (e.g., `test1.txt`, `document.txt`) inside the `sample_files` folder. These files will be “encrypted” during the simulation.
+
+5. **Run the Simulator**  
+   Open a terminal or command prompt, navigate to the project directory, and run:
+
+   ```bash
+   python3 ransomware_simulator.py
